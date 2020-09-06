@@ -12,10 +12,9 @@ const Reps = () => {
     return (
         <Box textAlign='center' mt={3}  >
             <Rating
-                name="size-large"
+                name="size-medium"
                 max={reps}
                 value={currentRep}
-                size="large"
                 readOnly={true}
                 icon={<FiberManualRecordIcon />}
             />

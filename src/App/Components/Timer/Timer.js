@@ -61,7 +61,7 @@ const Timer = () => {
     return (
         <Box
             color={counting && repPhase === 1 && count === 1 && currentRep > 0 ? 'greenyellow' : 'inherit'}
-            fontSize='8em'
+            fontSize='calc(20vmax)'
             onClick={() => setEmojis(prev => !prev)}
             textAlign='center'
         >
