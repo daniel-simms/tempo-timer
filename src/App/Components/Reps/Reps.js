@@ -10,7 +10,7 @@ const Reps = () => {
     const { reps, currentRep } = useContext(AppContext)
 
     return (
-        <Box textAlign='center' mt='1%'  >
+        <Box textAlign='center' mt={3}  >
             <Rating
                 name="size-large"
                 max={reps}
